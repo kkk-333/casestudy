@@ -1,0 +1,52 @@
+.header{
+    /*background-image: url('https://c.ekstatic.net/ecl/airport/airfield/dubai-airport-view-at-night-w1920x480.jpg?h=QxLia2o5qpH587deBvuSMw') no-repeat;*/
+    background-image: url('https://c.ekstatic.net/ecl/airport/airfield/dubai-airport-view-at-night-w1920x480.jpg?h=QxLia2o5qpH587deBvuSMw');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section{
+    text-align: center;
+}
+.header{
+    color: white;
+
+    height: 480px;
+}
+
+#about{
+
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+    width:90%;
+}
+
+#student-offer{
+    margin-right:auto;
+    margin-left:auto;
+    width:90%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-column-gap: 20px;
+}
+section{
+    margin: 15px;
+}
+
+
+#student-offer>img{
+    width: 100%;
+    height: 100%;
+}
+
+#cards{
+    padding:20px;
+    width:80%;
+    margin-left: auto;
+    margin-right:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
